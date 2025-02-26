@@ -11,7 +11,7 @@ export default function CommunicationChannel({ linkPage }: { linkPage: LinkPage 
       <div className="w-full h-full flex flex-col gap-3">
         <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-2">
           <Image src={linkPage.logo} width={36} height={36} alt={`logo_${linkPage.title.toLowerCase()}`} sizes="(max-width: 640px) 32px, 36px"/>
-          <h2 className={clsx("font-rubik text-2xl md:text-3xl font-medium text-center", {
+          <h2 className={clsx("font-rubik text-2xl md:text-3xl font-semibold text-center", {
             "text-[#5562ea]": linkPage.type === "discord",
             "text-green-500": linkPage.type === "whatsapp",
             "text-[#eb4a66]": linkPage.type === "instagram",
