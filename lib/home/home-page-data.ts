@@ -15,7 +15,7 @@ export const comunidadData: CommunityData[] = [
       "👉🏼 DATA SAM es una comunidad conformada por estudiantes de la Licenciatura en Ciencia de Datos de la Universidad Nacional de San Martín, comprometidos con el aprendizaje 📚 y la colaboración 🤝 en el fascinante mundo de los datos.",
       "Buscamos construir un espacio donde la innovación 💡, la investigación 🔍 y la práctica se fusionen para promover el desarrollo de habilidades técnicas y la resolución de problemas reales."
     ],
-    image: "/images/grupo_comunidad.png",
+    image: "/images/grupo-comunidad.png",
     link: {
       text:"Unirse a la comunidad", 
       href:"/comunidad"
@@ -27,7 +27,7 @@ export const comunidadData: CommunityData[] = [
       "🌱 Nuestra misión es crear un espacio inclusivo y dinámico donde estudiantes de nuestra carrera, así como de otras disciplinas, puedan conectarse 🌐, compartir recursos 📖 y enriquecer sus conocimientos.",
       "Fomentamos el intercambio de ideas 💬 como pilar fundamental para el crecimiento personal y colectivo. Invitamos tanto a estudiantes como a docentes de otras carreras a unirse, aprender y colaborar en proyectos conjuntos, ampliando así las posibilidades de aprendizaje y desarrollo en la ciencia de datos."
     ],
-    image: "/images/apoyo_comunidad.png"
+    image: "/images/apoyo-comunidad.png"
   }
 ];
 

@@ -5,6 +5,7 @@ export interface NavbarLink{
 
 export const navbar_links: NavbarLink[] = [
   {name: "Inicio", href: "/"},
+  {name: "Redes", href: "/redes"},
   {name: "Comunidad", href: "/comunidad"},
   {name: "Carrera", href: "/carrera"},
 ]
