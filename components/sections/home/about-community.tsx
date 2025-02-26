@@ -18,7 +18,7 @@ export default function AboutCommunity() {
       </article>
       <article className="w-full h-[500px] sm:h-[400px] relative z-0">
         <Image 
-          src="/images/CarreraImagen.png"
+          src="/images/imagen-carrera-info.png"
           alt="Descripción de la imagen"
           layout="fill"
           className="object-cover rounded-lg z-0 absolute" // Cambio a object-cover para asegurar que la imagen no cubra todo el contenido
