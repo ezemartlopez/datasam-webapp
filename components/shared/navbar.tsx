@@ -9,7 +9,7 @@ import ProfileUser from "./profile-user";
 
 const NavbarItemLink = ({navbarLink}:{navbarLink: NavbarLink}) => {
   return (
-    <Link href={navbarLink.href} className="font-rubik font-light text-lg text-white transition-colors duration-500 text-muted-foreground hover:text-blue-500">{navbarLink.name}</Link>
+    <Link href={navbarLink.href} className="font-rubik font-light text-lg text-white transition-colors duration-500 hover:text-blue-500">{navbarLink.name}</Link>
   );
 }
 
@@ -29,7 +29,7 @@ const Navbar = () => {
           </button>
 
           <div className="hidden md:inline-flex flex-1">
-            <ul className="h-full w-full flex justify-start items-center gap-6">
+            <ul className="h-full w-full flex justify-start items-center gap-8">
               {navbar_links.map((navbarLink, index) => (
                 <li key={index} className="w-auto h-auto">
                   <NavbarItemLink navbarLink={navbarLink}/>
