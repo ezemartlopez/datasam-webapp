@@ -3,7 +3,7 @@ import ResponsiveImage from "@/components/ui/responsive-image";
 // Component: main.tsx
 export default function MainHome() {
   return (
-    <section className="w-full h-screen bg-red-300">
+    <section className="w-full h-screen bg-gray-200">
       <div className="w-full h-full absolute z-0">
         <ResponsiveImage/>
       </div>
